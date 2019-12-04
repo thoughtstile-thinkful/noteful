@@ -53,6 +53,11 @@ export default function Notes(props) {
           <Note>
             {note.name} -{' '}
             {store.folders.find(folder => folder.id === note.folderId).name}
+            <Link to='/'>
+              <button onClick={() => props.deleteNote(note)}>
+                delete note
+              </button>
+            </Link>
           </Note>
           <Content>{note.content}</Content>
         </>

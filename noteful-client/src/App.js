@@ -91,10 +91,6 @@ function App() {
 
 export default App;
 
-// const SuperContainer = styled.div`
-//   width: 80vh;
-// `;
-
 const Header = styled.div`
   display: flex;
   justify-content: center;
