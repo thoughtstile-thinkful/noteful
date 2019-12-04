@@ -5,7 +5,6 @@ import styled from 'styled-components';
 
 export default function Notes(props) {
   let mode = props.match.path.split('/')[1];
-  // let store = props.store;
   let folderId = props.match.params.folderId;
 
   const [store, setStore] = useState(props.store);
